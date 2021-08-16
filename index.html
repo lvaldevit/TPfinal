@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TP final">
+    <title>TP final</title>
+    <link rel="icon" type="image/svg" href="html.svg">
+</head>
+<body>
+
+    <header>
+
+        <h1>HTML dans sa globalité</h1>
+
+    </header>
+
+    <article>
+    
+        <div>
+        
+            <h2>Bonjour!</h2>
+
+            <p>
+                Je m'appelle <strong>Valdevit Loïc</strong>, j'ai <strong>33 ans</strong>, j'habite à <strong>Soissons</strong> et je suis en formation <strong>développeur web</strong>.
+            </p>
+
+        </div>
+
+        <hr>
+
+        <div>
+        
+            <h2>Mon parcours</h2>
+
+            <ul>
+                <li>Formation développeur web</li>
+                <li>Formation cyber-sécurité</li>
+                <li>Employé de rayon</li>
+                <li>Contrôleur qualité</li>
+                <li>Préparateur de commandes</li>
+            </ul>
+
+        </div>
+
+        <hr>
+
+        <div>
+
+            <h2>Mes compétences en web</h2>
+
+            <table BORDER="1">
+
+                <tr>
+                    <th>Technologie</th>
+                    <th>Débutant</th>
+                    <th>Moyen</th>
+                    <th>Bon</th>
+                    <th>Expert</th>
+                </tr>
+
+                <tr>
+                    <td><img src="html.svg" alt="logo html"></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><img src="css.svg" alt="logo css"></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><img src="js.svg" alt="logo js"></td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><img src="php.svg" alt="logo php"></td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><img src="sql.svg" alt="logo sql"></td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <hr>
+
+        <div>
+        
+            <h3>Me contacter</h3>
+
+            <p>
+                <a href="tel:0613228186" title="lien vers mon numéro" rel="nofollow">0613228186</a>&nbsp;&nbsp;&nbsp;
+                <a href="mailto:l.valdevit@gmail.com" title="lien vers mon email" rel="nofollow">l.valdevit@gmail.com</a>
+            </p>
+
+        </div>
+
+        <hr>
+
+        <div>
+
+            <h3>Formulaire de contact</h3>
+
+            <form>
+
+                <label for="homme">Homme&nbsp;&#x2642;</label><input type="radio" name="genre" id="homme"><br>
+                <label for="femme">Femme&nbsp;&#x2640;</label><input type="radio" name="genre" id="femme">
+                <br>
+                <br>
+                <label for="nom">Nom & Prénom :&nbsp;</label><input type="text" name="nom" id="nom" placeholder="ex : Deschamps Didier">
+                <br>
+                <br>
+                <label for="age">Age :&nbsp;</label><input type="number" name="age" id="age" placeholder="ex : 52">ans
+                <br>
+                <br>
+                <label for="email">Email :&nbsp;</label><input type="email" name="email" id="email" placeholder="ex : prenom@domaine.com">
+                <br>
+                <br>
+                <label for="sujet">Sujet :&nbsp;</label>
+                <select name="sujet" id="sujet">
+                    <option value="">Choisissez</option>
+                    <option value="chat">Chat</option>
+                    <option value="chien">Chien</option>
+                    <option value="poisson">Poissons</option>
+                </select>
+                <br>
+                <br>
+                <label for="message">Votre message :</label><br>
+                <textarea name="message" id="message" rows="8" cols="50" placeholder="ex : Madame, Monsieur ..."></textarea>
+                <br>
+                <br>
+                <input type="checkbox" name="conditions" id="conditions">&nbsp;
+                <label for="conditions">En cochant cette case j'accèpte les conditions relatives à<br>
+                    l'utilisation de mes données personnelles décrites dans les<br>
+                    <a href="" title="redirection vers les mentions légales">mentions légales</a>
+                </label>
+                <br>
+                <br>
+                <input type="button" name="bouton" value="Envoyer le message">
+
+            </form>
+
+        </div>
+
+    </article>
+
+    <footer>
+
+        <p>
+            lundi mardi mercredi jeudi vendredi
+        </p>
+
+        <iframe 
+        
+            title="iframe de wikipedia"
+            src="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal"
+            width="600"
+            height="600">
+
+        </iframe>
+
+    </footer>
+</body>
+</html>
